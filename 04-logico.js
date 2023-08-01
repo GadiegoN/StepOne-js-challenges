@@ -12,8 +12,9 @@ console.log(canDrive); //answer: true;
 
 
 // 1 - se a pessoa é adulta (isAdult) e tem uma cerveja (beer), ela pode beber se quiser (canDrink)
-
-
+let beer = true;
+let canDrink = isAdult && !beer
+console.log(canDrink)
 
 
 // 2 - se está chovendo (rain) e voce tem um guardachuva (umbrella)
@@ -26,14 +27,40 @@ let umbrella = true;
 let wet;
 
 if(rain && umbrella ) {
-    wet = ???;
+    wet = false;
 } else {
-    wet = ???;
+    wet = true;
 }
+
+console.log(wet)
 
 // 3 - se a pessoa é estudante (student) ou é aposentado (retired),
 // ela pode ter desconto no ingresso do show (discount)
 
+let student = false;
+let retired = false;
+let discount;
+
+if(student || retired) {
+    discount = true
+} else {
+    discount = false
+}
+
+console.log(discount)
+
 
 // 4 - se a pessoa tem olhos verde (greenEyes) ou olhos azuis (blueEyes),
 // ela tem olhos claros (lightColorEyes)
+
+let greenEyes = false;
+let blueEyes = false;
+let lightColorEyes;
+
+if( greenEyes || blueEyes) {
+    lightColorEyes = true
+} else {
+    lightColorEyes = false
+}
+
+console.log(lightColorEyes)
