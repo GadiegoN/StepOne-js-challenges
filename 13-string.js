@@ -8,7 +8,11 @@
 // `Pedro Pedroso`  => `P.P`
 
 function abbrevName(firstName, lastName){
-	
+	let convert = `${firstName.charAt(0).toUpperCase()}.${lastName.charAt(0).toUpperCase()}.`
 
-	return;
+	return convert;
 }
+
+let fullName = 'Gadiego Nogueira'
+
+console.log(`${fullName} => ${abbrevName(fullName.split(' ')[0], fullName.split(' ')[1])}`);
