@@ -45,7 +45,7 @@ function findLargest(num1, num2, num3) {
       console.log("All numbers are equal");
 
     } else {
-      console.log("There are two or more numbers that are the largest");
+      console.log("There are two numbers that are the largest");
 
     }
 }
@@ -54,4 +54,4 @@ console.log(findLargest(21,45,13)); //"45 is the largest number"
 console.log(findLargest(34,18,52)); //"52 is the largest number"
 console.log(findLargest(64,11,11)); //"64 is the largest number"
 console.log(findLargest(11,11,11)); 
-console.log(findLargest('11',11,11)); 
+console.log(findLargest(1,11,11));
