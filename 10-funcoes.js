@@ -5,3 +5,13 @@
 // A função deve mostrar no console a área do retângulo com a seguinte frase:
 // The area of rectangle is XXX.
 
+function rectangleArea(length, width) {
+    
+    let area = length * width;
+
+    return area
+}
+
+let sumRectangleArea = rectangleArea(4, 8)
+
+console.log(`The area of rectangle is ${sumRectangleArea}`)
